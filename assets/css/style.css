@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+.banner {
+    background-color: #000;
+    background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../img/banner.png');
+    border-bottom: 1px solid #33A8DB80;
+}
+
+.banner, .main-banner{
+    height:600px;
+    padding-top: 60px;
+    text-align: center;
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.centered-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.banner h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+
+  }
+
+.main-banner  {
+    background-color: #000;
+    border-bottom: 1px solid #33A8DB80;
+}
+
+.main-banner h1{
+    font-size: 2.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: transparent;
+    background: -webkit-linear-gradient(#33A8DB, #1472B7);
+    background-clip: text;
+}
+
+p {
+    color:white;
+    display: block;
+    margin:20px;
+}
+
+.btn-inscricao{
+  margin:20px;
+  width: 220px;
+  height: 50px;
+  border: none;
+  outline: none;
+  color: #111;
+  background: -webkit-linear-gradient(#33A8DB, #1472B7);
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 15px;
+}
+
+.btn-inscricao:before {
+  content: '';
+  background: linear-gradient(45deg, #148bda, #3640c5, #73d3e4, #00ffd5, #002bff);
+  position: absolute;
+  top: -2px;
+  left:-2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  transition: opacity .3s ease-in-out;
+  opacity: 0;
+  border-radius: 10px;
+}
+
+.btn-inscricao:hover:before {
+  opacity: 1;
+}
+
+.btn-inscricao:after {
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(#33A8DB, #1472B7);
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.modulo{
+  color:white;
+  border-radius: 100px;
+  background: -webkit-linear-gradient(#07455f, #1566a0);
+  margin:30px;
+  width: 500px;
+  height: 50px;  
+  text-align: center; /* Centraliza o texto horizontalmente */
+  line-height: 50px;  /* Centraliza o texto verticalmente */
+  margin: 0 auto 24px; /*centro da página*/
+}
