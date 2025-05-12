@@ -12,6 +12,7 @@
 }
 
 .banner, .main-banner, .main-image, .main-profissionais{
+    height: auto;
     padding-top: 60px;
     text-align: center;
     background-size: cover; 
@@ -132,6 +133,7 @@ p {
 .main-profissionais{
   background-color: #000;
   margin-botton:0;
+   overflow: hidden;
 }
 
 
