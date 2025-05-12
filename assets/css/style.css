@@ -11,12 +11,12 @@
     border-bottom: 1px solid #33A8DB80;
 }
 
-.banner, .main-banner, .main-image{
-    height:600px;
+.banner, .main-banner, .main-image, .main-profissionais{
     padding-top: 60px;
     text-align: center;
     background-size: cover; 
     background-repeat: no-repeat;
+    display:block;
 }
 
 .centered-logo {
@@ -127,4 +127,19 @@ p {
   border-bottom: 1px solid #33A8DB80;
   background-size: cover;
   padding: 200px;
+}
+
+.main-profissionais{
+  background-color: #000;
+  margin-botton:0;
+}
+
+
+footer{
+  padding: 60px 0;
+  margin:0px;
+  text-align: center;
+  background-color: #000;
+  background-image:linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6));
+  border-top: 1px solid #33A8DB80;
 }
